@@ -33,6 +33,11 @@ h1, h2, h3 {
     border-bottom: 2px solid #eee;
 }
 
+.subsection-title {
+    padding-top: 0.5rem;
+    font-size: 1.25rem;
+}
+
 .content-row {
     margin-top: 1rem;
 }
