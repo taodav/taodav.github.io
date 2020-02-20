@@ -5,6 +5,10 @@
     width: 65%;
 }
 
+.hidden {
+    display: none;
+}
+
 .wrap {
     display: flex;
     justify-content: center;
