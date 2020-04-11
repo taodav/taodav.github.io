@@ -21,7 +21,7 @@
 }
 
 .recipe-body {
-    width: 60%;
+    width: 62.5%;
 }
 
 #recipe-card-container {
@@ -73,7 +73,7 @@
 }
 
 .recipe-ingredients {
-    width: 35%;
+    width: 32.5%;
 }
 
 .recipe-ingredients ul {
@@ -103,7 +103,7 @@
 }
 
 .step-image-nonsquare {
-    width: 20em;
+    width: 50%;
 }
 
 .step-image-container {
