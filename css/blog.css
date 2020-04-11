@@ -57,6 +57,10 @@
     margin-bottom: 0.25em;
 }
 
+.recipe-card-description {
+    margin-bottom: 0;
+}
+
 .recipe-subtitle {
     margin-bottom: 1em;
     border-bottom: 1px solid #eee;
