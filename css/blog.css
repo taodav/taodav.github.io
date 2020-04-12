@@ -107,7 +107,9 @@
 }
 
 .step-image-nonsquare {
-    width: 50%;
+    object-fit: cover;
+    width: 20em;
+    height: 25em;
 }
 
 .step-image-container {
