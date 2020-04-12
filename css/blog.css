@@ -106,6 +106,8 @@
     height: 20em;
 }
 
+/*TODO: THIS IS NOT IDEAL! this should be auto scaling but we're running into weird issues
+with IOS*/
 .step-image-nonsquare {
     object-fit: cover;
     width: 20em;
