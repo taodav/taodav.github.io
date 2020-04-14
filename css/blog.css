@@ -57,6 +57,10 @@
     margin-bottom: 0.25em;
 }
 
+.image-subtitle {
+    padding: 0.5em;
+}
+
 .recipe-card-description {
     margin-bottom: 0;
 }
@@ -64,6 +68,14 @@
 .recipe-subtitle {
     margin-bottom: 1em;
     border-bottom: 1px solid #eee;
+}
+
+.recipe-subtitle-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2em;
+    border-bottom: 2px solid #eee;
 }
 
 .recipe-description {
