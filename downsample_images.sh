@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 
 # Bash script for down-sampling images. Requires ImageMagick 7 installed
+# Usage: in root folder
+# ./downsample_images.sh images/recipes/pan-fried-salmon 500
+# Make sure your permissions are okay with executing the script!
 
 if [ -z "$1" ]
 then
