@@ -120,10 +120,16 @@
 
 /*TODO: THIS IS NOT IDEAL! this should be auto scaling but we're running into weird issues
 with IOS*/
-.step-image-nonsquare {
+.step-image-tall {
     object-fit: cover;
     width: 20em;
     height: 25em;
+}
+
+.step-image-wide {
+    object-fit: cover;
+    width: 25em;
+    height: 20em;
 }
 
 .step-image-container {
