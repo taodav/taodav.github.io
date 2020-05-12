@@ -25,8 +25,25 @@ for file in "$(pwd)/$targetfolder"/*
 do
   if [[ $file == *.jpg ]];
   then
+    imagedim=(`identify -format '%w %h' ${file}`)
+    imagewidth=${imagedim[0]}
+    imageheight=${imagedim[1]}
+    flip=false
+
+    if [ $imagewidth -gt $imageheight ];
+    then
+      flip=true
+      convert $file -rotate 90 $file
+    fi
+
     convert $file -resize $targetwidth $file
-    echo "Converted $file to width $targetwidth"
+
+    if [ "$flip" = true ];
+    then
+      convert $file -rotate 270 $file
+    fi
+
+    echo "Converted $file to $targetwidth along smaller dimension"
   fi
 done
 
