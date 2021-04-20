@@ -116,6 +116,7 @@
     object-fit: cover;
     width: 20em;
     height: 20em;
+    margin: 0em 1em;
 }
 
 /*TODO: THIS IS NOT IDEAL! this should be auto scaling but we're running into weird issues
