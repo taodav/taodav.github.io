@@ -140,6 +140,10 @@ with IOS*/
     margin: 1em 1em 1.5em 1em;
 }
 
+.step-image-multi {
+    width: 12em;
+}
+
 .recipe-step {
     border-bottom: 1px solid #eee;
     display: flex;
