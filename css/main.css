@@ -80,6 +80,14 @@ ul {
     margin-bottom: 0;
 }
 
+.pub-options {
+    font-size: 1rem;
+}
+
+.publication {
+    margin-bottom: 1em;
+}
+
 .authors {
     font-size: 0.9rem;
     margin-bottom: 0;
@@ -88,4 +96,5 @@ ul {
 .conference {
     font-size: 0.9rem;
     font-style: italic;
+    margin-bottom: 0;
 }
