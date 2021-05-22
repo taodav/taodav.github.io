@@ -5,6 +5,9 @@
 # ./downsample_images.sh images/recipes/pan-fried-salmon 500
 # Make sure your permissions are okay with executing the script!
 
+# To crop images to square, you can use:
+# mogrify -gravity Center -crop 3024x3024+0+0 image_name.jpg
+
 if [ -z "$1" ]
 then
   echo "Missing target folder in first argument"
