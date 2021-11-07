@@ -151,3 +151,9 @@ with IOS*/
     margin-bottom: 0.75em;
     padding: 0.25em;
 }
+
+#blog-quote {
+    text-align: left;
+    margin: 2em 1em;
+    font-size: 0.8em;
+}
