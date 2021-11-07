@@ -1,12 +1,13 @@
 #!/usr/bin/env bash
 
-# Bash script for down-sampling images. Requires ImageMagick 7 installed
+# Bash script for down-sampling all images in a given directory. Requires ImageMagick 7 installed
 # Usage: in root folder
 # ./downsample_images.sh images/recipes/pan-fried-salmon 500
 # Make sure your permissions are okay with executing the script!
 
 # To crop images to square, you can use:
 # mogrify -gravity Center -crop 3024x3024+0+0 image_name.jpg
+# but we don't really use this - we crop images using CSS for the recipes page.
 
 if [ -z "$1" ]
 then
