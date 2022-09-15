@@ -98,3 +98,8 @@ ul {
     font-style: italic;
     margin-bottom: 0;
 }
+
+h5.subtitle {
+    color: #6c757d;
+    font-size: 1.05em;
+}
