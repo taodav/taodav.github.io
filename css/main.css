@@ -38,12 +38,11 @@ h1, h2, h3 {
 }
 
 .subsection-title {
-    padding-top: 0.5rem;
     font-size: 1.25rem;
 }
 
 .content-row {
-    margin-top: 1rem;
+    /*margin-top: 1rem;*/
 }
 
 #sidebar ul {
