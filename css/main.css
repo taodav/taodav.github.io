@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     margin: 3rem 0;
-    width: 65%;
+    width: 70%;
 }
 
 .hidden {
@@ -38,12 +38,11 @@ h1, h2, h3 {
 }
 
 .subsection-title {
-    padding-top: 0.5rem;
     font-size: 1.25rem;
 }
 
 .content-row {
-    margin-top: 1rem;
+    /*margin-top: 1rem;*/
 }
 
 #sidebar ul {
@@ -77,7 +76,7 @@ ul {
 
 .publication-title {
     font-size: 1.1rem;
-    margin-bottom: 0;
+    margin-bottom: 0.2em;
 }
 
 .pub-options {
