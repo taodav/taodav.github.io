@@ -92,6 +92,11 @@ ul {
     margin-bottom: 0;
 }
 
+.footnote {
+    font-size: 0.7rem;
+    margin-bottom: 0;
+}
+
 .conference {
     font-size: 0.9rem;
     font-style: italic;
